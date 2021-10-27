@@ -1,0 +1,382 @@
+@startuml
+
+title __BLOG's Class Diagram__\n
+
+  namespace  {
+    class MavenWrapperDownloader {
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      class sk.posam.blog.BlogApplication {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace config {
+        class sk.posam.blog.config.SecurityConfig {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace config {
+        class sk.posam.blog.config.WebConfig {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace controller {
+        class sk.posam.blog.controller.AuthController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace controller {
+        class sk.posam.blog.controller.ImageController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace controller {
+        class sk.posam.blog.controller.PostController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace controller {
+        class sk.posam.blog.controller.UserController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace dto {
+        class sk.posam.blog.dto.CommentDto {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace dto {
+        class sk.posam.blog.dto.ImageDto {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace dto {
+        class sk.posam.blog.dto.LoginRequest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace dto {
+        class sk.posam.blog.dto.PostDto {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace dto {
+        class sk.posam.blog.dto.RegisterRequest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace dto {
+        class sk.posam.blog.dto.UserDto {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace exception {
+        class sk.posam.blog.exception.ImgeNotFondException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace exception {
+        class sk.posam.blog.exception.PostNotFondException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace exception {
+        class sk.posam.blog.exception.SpringBlogException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace exception {
+        class sk.posam.blog.exception.UserNotFoundException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace model {
+        class sk.posam.blog.model.Comment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace model {
+        class sk.posam.blog.model.Image {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace model {
+        class sk.posam.blog.model.Post {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace model {
+        class sk.posam.blog.model.User {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace repository {
+        interface sk.posam.blog.repository.CommentRepository {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace repository {
+        interface sk.posam.blog.repository.ImageRepository {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace repository {
+        interface sk.posam.blog.repository.PostRepository {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace repository {
+        interface sk.posam.blog.repository.UserRepository {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace security {
+        class sk.posam.blog.security.JwtAuthenticationFilter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace security {
+        class sk.posam.blog.security.JwtProvider {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace service {
+        class sk.posam.blog.service.AuthService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace service {
+        class sk.posam.blog.service.AuthenticationResponse {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace service {
+        class sk.posam.blog.service.CommentService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace service {
+        class sk.posam.blog.service.FileUploadService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace service {
+        class sk.posam.blog.service.PostService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace service {
+        class sk.posam.blog.service.UserDetailsServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace k.posam.blog {
+      namespace service {
+        class sk.posam.blog.service.UserService {
+        }
+      }
+    }
+  }
+  
+
+  sk.posam.blog.BlogApplication -up-|> sk.posam.blog.dto.RegisterRequest
+  sk.posam.blog.config.SecurityConfig -up-|> org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter
+  sk.posam.blog.config.WebConfig .up.|> org.springframework.web.servlet.config.annotation.WebMvcConfigurer
+  sk.posam.blog.controller.AuthController o-- sk.posam.blog.service.AuthService : authService
+  sk.posam.blog.controller.ImageController o-- sk.posam.blog.service.FileUploadService : fileUploadService
+  sk.posam.blog.controller.PostController o-- sk.posam.blog.service.CommentService : commentService
+  sk.posam.blog.controller.PostController o-- sk.posam.blog.service.PostService : postService
+  sk.posam.blog.controller.UserController o-- sk.posam.blog.service.UserService : userService
+  sk.posam.blog.model.Comment o-- sk.posam.blog.model.Post : post
+  sk.posam.blog.model.Comment o-- sk.posam.blog.model.User : user
+  sk.posam.blog.security.JwtAuthenticationFilter -up-|> org.springframework.web.filter.OncePerRequestFilter
+  sk.posam.blog.security.JwtAuthenticationFilter o-- sk.posam.blog.security.JwtProvider : jwtProvider
+  sk.posam.blog.service.AuthService o-- sk.posam.blog.security.JwtProvider : jwtProvider
+  sk.posam.blog.service.AuthService o-- sk.posam.blog.repository.UserRepository : userRepository
+  sk.posam.blog.service.CommentService o-- sk.posam.blog.repository.CommentRepository : commentRepository
+  sk.posam.blog.service.CommentService o-- sk.posam.blog.repository.PostRepository : postRepository
+  sk.posam.blog.service.CommentService o-- sk.posam.blog.repository.UserRepository : userRepository
+  sk.posam.blog.service.PostService o-- sk.posam.blog.service.AuthService : authService
+  sk.posam.blog.service.PostService o-- sk.posam.blog.repository.PostRepository : postRepository
+  sk.posam.blog.service.PostService o-- sk.posam.blog.repository.UserRepository : userRepository
+  sk.posam.blog.service.UserDetailsServiceImpl .up.|> org.springframework.security.core.userdetails.UserDetailsService
+  sk.posam.blog.service.UserDetailsServiceImpl o-- sk.posam.blog.repository.UserRepository : userRepository
+  sk.posam.blog.service.UserService o-- sk.posam.blog.repository.PostRepository : postRepository
+  sk.posam.blog.service.UserService o-- sk.posam.blog.repository.UserRepository : userRepository
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
